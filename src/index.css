@@ -1,1 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
+
+body {
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.font-helvetica-compressed {
+  font-family: 'helvetica-compressed', sans-serif;
+}
+
+/* Swiper base fixes */
+.swiper {
+  overflow: visible !important;
+}
+
+/* Default slide */
+.swiper-slide {
+  opacity: 0.35;
+  transform: scale(0.85);
+  transition: all 0.4s ease;
+}
+
+/* Active slide (CENTER) */
+.swiper-slide-active {
+  opacity: 1;
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+/* Adjacent slides */
+.swiper-slide-prev,
+.swiper-slide-next {
+  opacity: 0.6;
+  transform: scale(0.95);
+}

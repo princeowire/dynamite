@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import './fonts.css'
 import AppRoutes from './Routes/routes'
 
 function App() {

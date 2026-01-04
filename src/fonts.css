@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'helvetica-compressed';
+  src: url('./font/helvetica-compressed-5871d14b6903a.otf') format('woff2');
+  font-weight: bold; /* Define the weight */
+}
